@@ -393,6 +393,10 @@ body.menu-expanded .button path {
   gap: 0.8rem;
 }
 
+#contact img {
+  max-height: 90%;
+  border-radius: 1%;
+}
 /*============== FOOTER ====================================================================*/
 footer {
   background-color: var(--primary-color);
@@ -485,6 +489,10 @@ footer .social-links {
     color: initial;
     background-color: initial;
     filter: initial;
+  }
+
+  nav#navigation .wrapper .logo img {
+    margin-top: 0.5rem;
   }
 
   nav#navigation .close-menu,
