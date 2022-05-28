@@ -638,6 +638,11 @@ footer .social-links {
 
   #home .stats .stat {
     flex: 1;
+    padding: 2px;
+  }
+
+  #home .stats .stat h3 {
+    font-size: 3rem;
   }
 
   #home .button {
