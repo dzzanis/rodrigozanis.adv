@@ -355,6 +355,10 @@ body.menu-expanded .button path {
   margin-block: 1.6rem;
 }
 
+#services .card img {
+  border-radius: 0.6rem;
+}
+
 /*============== ABOUT ====================================================================*/
 #about {
   text-align: left;
