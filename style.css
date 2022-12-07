@@ -369,7 +369,26 @@ body.menu-expanded .button path {
   margin-bottom: 2.4rem;
 }
 
-#about content p {
+#about .content p {
+  margin-top: 2.4rem;
+  margin-bottom: 6rem;
+}
+
+/*============== Timeline Facebook ============================================================*/
+#fb_timeline {
+  text-align: left;
+  background: var(--brand-light-2);
+}
+
+#fb_timeline header {
+  margin-bottom: 3.2rem;
+}
+
+#fb_timeline header h2 {
+  margin-bottom: 2.4rem;
+}
+
+#fb_timeline .content p {
   margin-top: 2.4rem;
   margin-bottom: 6rem;
 }
@@ -401,6 +420,7 @@ body.menu-expanded .button path {
   max-height: 90%;
   border-radius: 1%;
 }
+
 /*============== FOOTER ====================================================================*/
 footer {
   background-color: var(--primary-color);
@@ -689,6 +709,21 @@ footer .social-links {
   }
 
   #about .content p {
+    margin-bottom: 0;
+  }
+
+  /*============== Timeline Facebook ==================================================*/
+  #fb_timeline .wrapper {
+    grid-template-columns: 48rem 1fr;
+    grid-template-areas: 'B A';
+    gap: 6.7rem;
+  }
+
+  #fb_timeline h2 {
+    width: 40.4rem;
+  }
+
+  #fb_timeline .content p {
     margin-bottom: 0;
   }
 

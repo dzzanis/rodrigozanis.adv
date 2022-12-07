@@ -31,6 +31,7 @@
             <li><a onclick="closeMenu()" href="#home">Início</a></li>
             <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
             <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+            <li><a onclick="closeMenu()" href="#fb_timeline">Publicações</a></li>
           </ul>
           <a onclick="closeMenu()" class="button" href="#contact"
             >Agende sua consulta</a
@@ -161,7 +162,7 @@
       <div class="wrapper">
         <div class="col-a">
           <header>
-            <h4>BEM VINDO! SOU O ADVOGADO RODRIGO ZANIS ⚖</h4>
+            <h4>BEM VINDO! SOU O ADVOGADO RODRIGO ZANIS 👋⚖</h4>
             <h1>Assistência jurídica simplificada para todos</h1>
           </header>
           <div class="content">
@@ -628,6 +629,41 @@
         </div>
       </div>
     </section>
+    <section id="fb_timeline">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Publicações</h4>
+            <h2>Acompanhe e fique por dentro!</h2>
+          </header>
+          <div class="content">
+            <p>Confira aqui os conteúdos exclusivos postado nas redes sociais.</p>
+            <p>Curta, comente e compartilhe os posts com seus amigos! E fique a vontade para enviar sua mensagem e saber mais.</p>
+          </div>
+        </div>
+        <div class="col-b">
+          <div
+          class="fb-page"
+          data-href="https://www.facebook.com/advogadorodrigozanis"
+          data-tabs="timeline, messages"
+          data-width="500"
+          data-height="2000"
+          data-small-header="true"
+          data-adapt-container-width="true"
+          data-hide-cover="true"
+          data-show-facepile="false"
+        >
+          <blockquote
+            cite="https://www.facebook.com/advogadorodrigozanis"
+            class="fb-xfbml-parse-ignore"
+          >
+            <a href="https://www.facebook.com/advogadorodrigozanis"
+              >Advogado Rodrigo Zanis</a
+            >
+          </blockquote>
+        </div>
+        </div>
+    </section>
     <section id="contact">
       <div class="wrapper">
         <div class="col-a">
@@ -822,5 +858,14 @@
     </a>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./main.js"></script>
+    <div id="fb-root">
+      <script
+        async
+        defer
+        crossorigin="anonymous"
+        src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v15.0"
+        nonce="ZU7pWUFF"
+      ></script>
+    </div>
   </body>
 </html>

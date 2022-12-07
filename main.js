@@ -8,6 +8,7 @@ function onScroll() {
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
   activateMenuAtCurrentSection(about)
+  activateMenuAtCurrentSection(fb_timeline)
   activateMenuAtCurrentSection(contact)
 }
 
@@ -74,4 +75,7 @@ ScrollReveal({
     #services .card,
     #about,
     #about header,
-    #about .content`)
+    #about .content,
+    #fb_timeline,
+    #fb_timeline header,
+    #fb_timeline .content`)
