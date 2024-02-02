@@ -414,6 +414,12 @@ body.menu-expanded .button path {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  color: var(--paragraph);
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: var(--paragraph);
 }
 
 #contact img {
@@ -566,7 +572,7 @@ footer .social-links {
   }
 
   nav#navigation.scroll .menu ul li a {
-    color: var(--brand-light-2);
+    color: white;
     opacity: 0.6;
   }
 
@@ -575,17 +581,17 @@ footer .social-links {
     color: white;
   }
 
-  nav#navigation .menu li a {
+  nav#navigation .menu ul li a {
     transition: opacity 0.4s;
   }
 
-  nav#navigation .menu li a.active,
-  nav#navigation .menu li a:hover {
+  nav#navigation .menu ul li a.active,
+  nav#navigation .menu ul li a:hover {
     opacity: 1;
     font-weight: 700;
   }
 
-  nav#navigation .menu li a::after {
+  nav#navigation .menu ul li a::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -600,7 +606,7 @@ footer .social-links {
     transition: width 0.2s;
   }
 
-  nav#navigation.scroll .menu li a::after {
+  nav#navigation.scroll .menu ul li a::after {
     background-color: white;
   }
 
