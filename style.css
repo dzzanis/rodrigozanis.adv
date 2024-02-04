@@ -281,6 +281,33 @@ body.menu-expanded .button path {
   left: 0;
   z-index: -1;
 }
+#home .welcome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#home .hello h4 {
+  font-size: 1.6rem;
+  animation: balance 800ms alternate 100ms infinite;
+  border: 1px;
+}
+
+@keyframes balance {
+  0% {
+    transform-origin: 0% 0%;
+    transform: rotate(1deg);
+  }
+  2% {
+    transform-origin: 35% 45%;
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform-origin: 70% 90%;
+    transform: rotate(-10deg);
+  }
+}
 
 #home .button {
   margin-inline: auto;
@@ -349,6 +376,7 @@ body.menu-expanded .button path {
   background: white;
   border: 1px solid var(--brand-light);
   border-radius: 0.6rem;
+  box-shadow: 4px 4px 10px #e5e7eb;
 }
 
 #services .card h3 {
@@ -357,6 +385,11 @@ body.menu-expanded .button path {
 
 #services .card img {
   border-radius: 0.6rem;
+}
+
+#services .card:last-child {
+  padding: 0;
+  box-shadow: 4px 0.2px 10px #e5e7eb;
 }
 
 /*============== ABOUT ====================================================================*/
@@ -507,7 +540,6 @@ footer .social-links {
   /* reset */
   nav#navigation .wrapper * {
     margin: 0;
-    padding: 0;
     visibility: initial;
     display: initial;
     opacity: initial;
@@ -519,10 +551,6 @@ footer .social-links {
     color: initial;
     background-color: initial;
     filter: initial;
-  }
-
-  nav#navigation .wrapper .logo img {
-    margin-top: 0.5rem;
   }
 
   nav#navigation .close-menu,
@@ -652,6 +680,10 @@ footer .social-links {
   #home .col-a {
     text-align: left;
     align-self: center;
+  }
+
+  #home .welcome {
+    justify-content: left;
   }
 
   #home h1 {
