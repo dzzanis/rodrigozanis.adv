@@ -62,6 +62,10 @@ function closeMenu() {
   document.body.classList.remove('menu-expanded')
 }
 
+const currentYear = new Date().getFullYear()
+const currentYearElement = document.querySelector('#currentYear')
+currentYearElement.innerHTML = `${currentYear}`
+
 ScrollReveal({
   origin: 'top',
   distance: '30px',
